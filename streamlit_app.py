@@ -20,6 +20,5 @@ cookie_manager = stx.CookieManager(key="main_auth_cookie_manager")
 
 
 with st.echo(code_location='below'):
-    for idx in range(10):
-        sleep(1)
+    for idx in range(2):
         st.info(idx)
