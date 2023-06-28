@@ -15,7 +15,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-self.cookie_manager = stx.CookieManager(key="main_auth_cookie_manager")
+cookie_manager = stx.CookieManager(key="main_auth_cookie_manager")
 
 
 with st.echo(code_location='below'):
